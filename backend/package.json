@@ -1,0 +1,24 @@
+{
+  "name": "sircus-video-renderer",
+  "version": "1.0.0",
+  "description": "Video rendering service for Sircus Studio.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "aws-sdk": "^2.1557.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": "20"
+  }
+}
